@@ -18,7 +18,7 @@ public class OutputLinkFilter
             "(/[a-zA-Z0-9/\\-_\\.]+\\.[a-z]+)(:(\\d+))?(:(\\d+))?");
 
     private static final Pattern URL_PATTERN = Pattern.compile(
-            "(https?://[-_.!~*\\\\'()a-zA-Z0-9;\\\\/?:\\\\@&=+\\\\$,%#]+)");
+            "(cf://[-_.!~*\\\\'()a-zA-Z0-9;\\\\/?:\\\\@&=+\\\\$,%#]+)");
     private final Project project;
 
     public OutputLinkFilter(Project project) {
